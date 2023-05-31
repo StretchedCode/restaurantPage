@@ -39,3 +39,16 @@ button:hover{
     justify-content: center;
     padding: 100px;
 }
+
+.aboutPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutPage > img{
+    max-width: 80%;
+
+
+}
