@@ -30,7 +30,6 @@ const initialLoad = () => {
 
   container.appendChild(header);
   container.appendChild(mainContent);
-  console.log('Testing');
 };
 
 // cleans up the 'container' div everytime a new page needs to be loaded
@@ -42,4 +41,5 @@ const cleanPage = () => {
 export {
   initialLoad,
   cleanPage,
+  mainContent,
 };
