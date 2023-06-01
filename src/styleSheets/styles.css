@@ -52,3 +52,11 @@ button:hover{
 
 
 }
+
+.aboutContent{
+    padding-top: 50px;
+    font-weight: normal;
+    max-width: 80%;
+    font-size: larger;
+    line-height: 1.6;
+}
