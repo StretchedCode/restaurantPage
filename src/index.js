@@ -1,5 +1,6 @@
 import './styleSheets/styles.css';
 import { initialLoad, cleanPage } from './functions/pageLoad';
+import { createAboutPage } from './pages/about';
 
 // begin initial setup of page
 
@@ -15,6 +16,7 @@ menuBtn.addEventListener('click', () => {
 
 aboutBtn.addEventListener('click', () => {
   cleanPage();
+  createAboutPage();
 });
 
 galleryBtn.addEventListener('click', () => {
